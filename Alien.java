@@ -1,4 +1,4 @@
-class Alien
+public abstract class Alien
 {
     // public static final int SNAKE_ALIEN = 0;
     // public static final int OGRE_ALIEN = 1;
@@ -41,9 +41,6 @@ class Alien
         return health;
     }
     //overridden by child classes 
-    public int getDamage()
-    {
-        return 0;
-    }
-
+    public abstract int getDamage();
+    
 }
